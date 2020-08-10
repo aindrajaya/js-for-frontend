@@ -1,0 +1,44 @@
+Workflow
+#HTML
+1. index html emmet html5
+2. title change -> Form Validater
+3. add stylesheet and script
+4. create div container class
+5. form class inside div container
+6. h2 
+7. add form-control class
+8. add label username and input tag
+9. small tag for error messages
+10. copy form control for another input id
+11. setting up for each input id username, email, password and passwor2(for confirmation)
+12. add button class
+
+#CSS
+0. Font from google open sans
+1. CSS custom property :root --success-color:#2ecc71 --error-color:#e74c3c
+2. * everything border-box
+3. body tag background-color font-family display:flex align-item:center justify-content:center min-height:100vh margin:0
+4. container class bg-color border-radius:5px box-shadow: 0 2px 10px rgba(0,0,0,0.3) make drop shadow for container  width: 400px
+5. h2 text-align:center margin:0 0 20px
+6. form class padding:30px 40px
+7. form-control class margin-bottom: 10px padding-bottom: 20px position:relative
+8. .form-control class label tag color:#777 display:block margin-bottom:5px
+9. form-control class input tag border:2px solid #f0f0f0 border-radius:4px display:block width:100% padding:10px font-size:14px
+10. form-control input tag on focus outline:0 border-color: #777
+11. form-control class success input tag border-color:#2ecc71
+12. form-control class error input tag border-color:#e74c3c
+13. form-control class small tag color:#e74c3c position:absolute bottom:0 left:0 visibility:hidden
+14. Change the error and success color to the root property color use var()
+15. form-control.error small tag visibility:visible
+16. form class button tag cursor:pointer bg-color:#34398db border:2px solid #3498db border-radius:4px color:#fff display:block font-size:16px padding:10px margin-top:20px width:100%
+
+#JS
+1. pull all of element (form, username, email, password, and password2) by getElementById
+2. write Event Listener for the form element that reponse submit id or when submit is clicked
+3. form-control element eventListener
+4. add eventListenere and function checkRequired
+5. add eventListenere and function showError and showSuccess
+6. add getFieldName function to make error message better
+7. add eventListenere and function checkLength
+8. add eventListenere and function checkEmail with regex
+9. add eventListenere and function checkPasswordMatch
